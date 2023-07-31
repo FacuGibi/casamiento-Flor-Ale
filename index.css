@@ -1,0 +1,202 @@
+body{
+  width:fit-content;
+}
+.container-fluid{
+    display: grid;
+    place-items: center;
+    background-color: #f5f5f7;
+    width: 100%;
+  }
+
+.container2 {
+  display: grid;
+  place-items: center;
+  background-color: #bbc0ce;
+  width: 105%;
+  margin-left: -15px;
+  margin-bottom: 30px;
+}
+
+#h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  color: #758dab;
+  border-top: 2px solid #758dab;
+  border-bottom: 2px solid #758dab;
+  border-left-width: 2px;
+  width: fit-content;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#h2{
+  font-size: 100px;
+  margin-top: 20px;
+}
+
+.row {
+  align-items: center;
+  padding: 30px 5px;
+  width: max-content;
+}
+.col {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 35px;
+  margin: 5px;
+  padding: 30px;
+  height: 100px;
+  width: max-content;
+  text-decoration: none;
+  line-height: 25px;
+  border-radius: 50%;
+  border: solid #ffffff 2px;
+  text-align: center;
+}
+.circulos {
+  font-size: 14px;
+  display: block;
+  width: 73px;
+}
+.span {
+  color: #3c3c3b;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+#h3 {
+  background-color: #9aa1b7;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+#h3Volcan {
+  background-color: #9aa1b7;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+#h4 {
+  color: #3c3c3b;
+  text-align: center;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+#h5 {
+  color: #9aa1b7;
+  text-align: center;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+#imgCivil{
+  margin-bottom: 20px;
+}
+
+#imgIglesia{
+  margin-bottom: 20px;
+}
+
+#imgVolcan {
+  margin: 0px;
+  width: 110%;
+  transform: translate(-0px, -7px);
+  background: transparent;
+}
+
+#txtVolcan {
+  margin: 0px;
+  transform: translate(-0px, -20px);
+  background: transparent;
+}
+
+#imgPlaza {
+  margin: 0px;
+  width: 110%;
+}
+
+#imgVestimenta{
+  width: 110%;
+}
+
+#imgSalon{
+  margin-bottom: 20px;
+}
+
+
+#flor1{
+  display: block;
+}
+
+#flor2{
+  float: right;
+}
+
+#vestimenta{
+  float: left;
+  text-align: center;
+  align-items: center;
+  margin-bottom: -10px;
+}
+
+#presencia{
+  background-image: url(/imagenes/fondoPresencia2.jpg);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  padding: 20px;
+  height: 300px;
+  width: 105%;
+  margin-left: -15px;
+}
+
+#h3Presencia {
+  text-align: center;
+  color: white;
+}
+
+#txtPresencia{
+  text-align: center;
+  color: white;
+}
+
+#imgCactus{
+  width: 110%;
+}
+
+.botones{
+  margin-top: 5px;
+  color: #FFFFFF;
+  padding: 10px;
+  text-decoration: none;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  background: #9AA1B7;
+}
+
+a{
+  list-style: none;
+  text-decoration: none;
+}
