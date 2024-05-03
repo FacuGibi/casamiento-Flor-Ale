@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded',() => {
     //===
     // VARIABLES
     //===
-    const diaDelEvento = new Date('05/24/2024 10:00 PM');
+    const diaDelEvento = new Date('01/12/2024 08:00 PM');
     // DOM for render
     const dias = document.getElementById('days');
     const horas = document.getElementById('hours');
@@ -37,10 +37,10 @@ document.addEventListener('DOMContentLoaded',() => {
         const segundosRestantes = Math.floor((duracion % MILLISECONDS_OF_A_MINUTE) / MILLISECONDS_OF_A_SECOND);
 
         // Render
-        dias.textContent = diasRestantes.toString().padStart(2, '0');
-        horas.textContent = horasRestantes.toString().padStart(2, '0');
-        minutos.textContent = minutosRestantes.toString().padStart(2, '0');
-        segundos.textContent = segundosRestantes.toString().padStart(2, '0');
+        dias.textContent = diasRestantes;
+        horas.textContent = horasRestantes;
+        minutos.textContent = minutosRestantes;
+        segundos.textContent = segundosRestantes;
     }
 
     //===
