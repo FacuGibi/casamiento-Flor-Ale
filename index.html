@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Casamiento Flor y Ale</title>
+    <title>15 Vicky</title>
     <link rel="stylesheet" href="index.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
@@ -22,118 +22,144 @@
     />
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container">
       <header>
-          <section class="container-fluid">
-            <img src="./imagenes/logo.png" alt="" width="80%" />
-            <h1 id="h1">NOS CASAMOS</h1>
-          </section>
+        <section class="container-fluid">
+          <img id="logo" src="imagenes/logo.png" width="40%" alt="" />
+          <div class="row">
+            <div class="col">
+              <span id="days"></span>
+              <br />
+              <span class="letrasReloj"> DÍAS </span>
+            </div>
+            <div class="col">
+              <span id="hours"></span><br />
+              <span class="letrasReloj"> HORAS </span>
+            </div>
+            <div class="col">
+              <span id="minutes"></span><br />
+              <span class="letrasReloj"> MINUTOS </span>
+            </div>
+            <div class="col">
+              <span id="seconds"></span><br />
+              <span class="letrasReloj">SEGUNDOS</span>
+            </div>
+          </div>
+        </section>
       </header>
 
       <main>
         <section class="container2">
-          <div class="row">
-            <div class="col">
-              <span id="days"></span>
-              <span class="circulos"> DÍAS </span>
-            </div>
-            <div class="col">
-              <span id="hours"></span>
-              <span class="circulos"> HORAS </span>
-            </div>
-            <div class="col">
-              <span id="minutes"></span>
-              <span class="circulos"> MINUTOS </span>
-            </div>
-            <div class="col">
-              <span id="seconds"></span> <span class="circulos">SEGUNDOS</span>
+          <div class="separador">
+            <img class="img" src="imagenes/linea.png" width="30%" alt="" />
+            <img
+              class="img"
+              src="imagenes/iCalendario.png"
+              width="30px"
+              alt=""
+            />
+            <img class="img" src="imagenes/linea.png" width="30%" alt="" />
+          </div>
+          <div id="fecha">
+            <p id="dia">VIERNES</p>
+            <p id="diaNum">24</p>
+            <div id="mesHora">
+              <p id="mes">DE MAYO</p>
+              <p id="hora">22:30 hs</p>
             </div>
           </div>
+          <div class="separador">
+            <img class="img" src="imagenes/linea.png" width="30%" alt="" />
+            <img
+              class="img"
+              src="imagenes/iUbicacion.png"
+              width="30px"
+              alt=""
+            />
+            <img class="img" src="imagenes/linea.png" width="30%" alt="" />
+          </div>
+          <div class="secciones">
+            <p class="titulo">PACARÁ CENTER</p>
+            <p id="direccion">Córdoba 417</p>
+            <button class="btn-grad">VER MAPA</button>
+          </div>
+          <div class="separador">
+            <img class="img" src="imagenes/linea.png" width="30%" alt="" />
+            <img
+              class="img"
+              src="imagenes/iVestimenta.png"
+              width="35px"
+              alt=""
+            />
+            <img class="img" src="imagenes/linea.png" width="30%" alt="" />
+          </div>
+          <div class="secciones">
+            <span class="titulo">CÓDIGO DE VESTIMENTA</span>
+            <div class="separador">
+              <img
+                class="img"
+                src="imagenes/elegante1.png"
+                width="20%"
+                alt=""
+              />
+              <span id="tipoVestimenta">Elegante</span>
+              <img
+                class="img"
+                src="imagenes/elegante2.png"
+                width="20%"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="separador">
+            <img class="img" src="imagenes/linea.png" width="30%" alt="" />
+            <img
+              class="img"
+              src="imagenes/iFormulario.png"
+              width="28px"
+              alt=""
+            />
+            <img class="img" src="imagenes/linea.png" width="30%" alt="" />
+          </div>
+          <div class="secciones">
+            <span id="formulario"
+              >Completá este formulario <br />
+              para confirmar tu presencia
+              <br /><span class="gBold">
+                hasta el día viernes 17 de Mayo</span
+              ></span
+            >
+            <button class="btn-grad">CONFIRMAR</button>
+          </div>
+          <div class="separador">
+            <img class="img" src="imagenes/linea.png" width="30%" alt="" />
+            <img class="img" src="imagenes/iRegalo.png" width="40px" alt="" />
+            <img class="img" src="imagenes/linea.png" width="30%" alt="" />
+          </div>
+          <div class="secciones">
+            <span id="regalo"
+              >Tu presencia es el mejor regalo. <br />
+              De igual forma, si desean hacer un presente, <br />
+              pueden hacerlo en la siguiente cuenta.
+            </span>
+            <span class="gBold">Alias: victoria.cruz.videla</span>
+          </div>
         </section>
-
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <section class="container-fluid">
-            <span class="span"
-              >Te invitamos a celebrar con nosotros nuestra boda</span
-            >
-            <h3 id="h3">03 DE OCTUBRE DE 2023</h3>
-            <h2 id="h2"><img src="./imagenes/txtCivil.png" alt="" width="50%"></h2>
-            <img id="imgCivil" src="./imagenes/civil.png" alt="" width="50%" />
-            <h4 id="h4">Registro Civil Villa Luján</h4>
-            <h5 id="h5">11:00 hs.</h5>
-            <span class="span">Sargento Cabral 261</span>
-          </section>
-        </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <section class="container-fluid">
-            <h3 id="h3Volcan">12 DE ENERO DE 2024</h3>
-            <img src="./imagenes/volcan2.jpg" alt="" id="imgVolcan" />
-            <section class="container-fluid" id="txtVolcan">
-              <h4 id="h4">Volcán Jujuy</h4>
-              <span class="span"
-                >Aprox. 40km de San Salvador de Jujuy <br> por Ruta Nacional
-                N°9</span
-              >
-              <a target="_blank" href="https://goo.gl/maps/pNeco7yM8GDDFHov8"><button class="botones"><img class="icoUbicacion" src="./imagenes/icoUbicacion.png" alt="" width="20px" >CÓMO LLEGAR</button></a>
-            </section>
-          </section>
-        </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <section class="container-fluid">
-            <h2 id="h2"><img src="./imagenes/txtCeremonia.png" alt="" width="70%"></h2>
-            <img id="imgIglesia" src="./imagenes/iglesia.png" alt="" width="50%" />
-            <h4 id="h4">Capilla Nuestra Señora del Valle</h4>
-            <h5 id="h5">20:00 hs.</h5>
-            <span class="span">Mariano Moreno y 9 de Julio</span>
-            <a target="_blank" href="https://goo.gl/maps/iep7eytozwThFWmH6"><button class="botones"><img class="icoUbicacion" src="./imagenes/icoUbicacion.png" alt="" width="20px" >CÓMO LLEGAR</button></a>
-            
-          </section>
-        </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <section class="container-fluid"><br><br>
-            <h2 id="h2"><img src="./imagenes/txtFiesta.png" alt="" width="60%"></h2>
-            <img id="imgSalon" src="./imagenes/salon.png" alt="" width="50%" />
-            <h4 id="h4">Salón Municipal de Volcán</h4>
-            <h5 id="h5">21:30 hs.</h5>
-            <span class="span">Plaza Combate de Volcán</span>
-            <a target="_blank" href="https://goo.gl/maps/Uzjc4FrkPkNG7Ebf6"><button class="botones"><img class="icoUbicacion" src="./imagenes/icoUbicacion.png" alt="" width="20px" >CÓMO LLEGAR</button></a>
-            
-            <img src="./imagenes/plaza2.jpg" alt=""  id="imgPlaza"/>
-          </section>
-        </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <section id="vestimenta" class="container-fluid">  
-            <img id="imgVestimenta" src="./imagenes/vestimenta.png" alt="">
-
-          </section>
-          <section id="presencia" class="container-fluid">
-            <h3 id="h3Presencia">CONFIRMAR PRESENCIA</h3>
-            <span id="txtPresencia"
-              >Nos encantaría contar con vos en este gran día. <br> Confirmá tu
-              asistencia lo antes posible <br> en el siguiente formulario hasta el <br>
-              día <b>17 de Octubre</b></span
-            >
-            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfDNlop2_FTtRxIBZv7yFcnXDuybHy9lpoV-2nBQc4hyH7hEA/viewform"><button id="btnPresencia">CONFIRMAR AQUÍ</button></a>
-          </section>
-        </div>
       </main>
 
       <footer>
         <section class="container-fluid">
-          <h2 id="h2"><img src="./imagenes/txtEsperamos.png" alt="" width="100%"></h2>
-          <img id="imgCactus" src="./imagenes/cactus.jpg" alt="" />
+          <img class="img" src="imagenes/linea.png" width="150%" height="2px" />
+          <span id="teEspero">¡Te espero!</span>
         </section>
       </footer>
     </div>
 
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
   </body>
 </html>

@@ -1,236 +1,229 @@
-html{
-  background-color: #f5f5f7;
+html {
   overflow-x: hidden;
+  margin: auto;
+  width: max-content;
 }
-body{
-  width:fit-content;
-  background-color: #f5f5f7;
-  overflow-x: hidden;
-  
+body {
+  overflow: hidden;
+  background-image: url(/imagenes/fondo.png);
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
 }
-.container-fluid{
-    display: grid;
-    place-items: center;
-    background-color: #f5f5f7;
-    width: 100%;
+
+@media (width >= 769px) {
+  body {
+    width: 900px;
+    background-image: url(/imagenes/fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.container-fluid {
+  display: grid;
+  place-items: center;
 }
 
 .container2 {
   display: grid;
   place-items: center;
-  background-color: #bbc0ce;
-  width: 108%;
-  margin-left: -15px;
-  margin-bottom: 30px;
 }
 
-#h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-size: 30px;
-  color: #758dab;
-  border-top: 2px solid #758dab;
-  border-bottom: 2px solid #758dab;
-  border-left-width: 2px;
-  width: fit-content;
-  margin-top: 10px;
+#logo {
+  margin-top: 120px;
+}
+
+header {
   margin-bottom: 20px;
-}
-
-#h2{
-  margin-top: 20px;
-  text-align: center;
 }
 
 .row {
-  align-items: center;
-  padding: 30px 5px;
-  width: max-content;
-}
-.col {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  color: white;
-  font-size: 25px;
-  margin: 5px;
-  padding: 20px;
-  height: 77px;
-  width: max-content;
-  text-decoration: none;
-  line-height: 18px;
-  border-radius: 50%;
-  border: solid #ffffff 2px;
-  text-align: center;
-}
-.circulos {
-  font-size: 10px;
-  display: block;
-  width: 50px;
-}
-.span {
-  color: #3c3c3b;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  margin-bottom: 0px;
-  font-size: 14px;
-  width: 100%;
-}
-
-#h3 {
-  background-color: #9aa1b7;
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-  width: 90%;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  margin-top: 30px;
-}
-
-#h3Volcan {
-  background-color: #9aa1b7;
-  color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-  width: 90%;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  margin-top: 30px;
-}
-
-#h4 {
-  color: #3c3c3b;
-  text-align: center;
-  width: 100%;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-}
-
-#h5 {
-  color: #9aa1b7;
-  text-align: center;
-  width: 100%;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-}
-
-#imgCivil{
-  margin-bottom: 20px;
-}
-
-#imgIglesia{
-  margin-bottom: 20px;
-}
-
-#imgVolcan {
-  margin: 0px;
-  width: 115%;
-  transform: translate(-0px, -7px);
-  background: transparent;
-}
-
-#txtVolcan {
-  margin: 0px;
-  transform: translate(-0px, -20px);
-  background: transparent;
-  width: max-content;
-}
-
-#imgPlaza {
-  margin: 0px;
-  width: 115%;
-}
-
-#imgVestimenta{
-  width: 115%;
-}
-
-#imgSalon{
-  margin-bottom: 20px;
-}
-
-#vestimenta{
-  float: left;
-  text-align: center;
-  align-items: center;
-  margin-bottom: -10px;
-}
-
-#presencia{
-  background-image: url(/imagenes/fondoPresencia2.jpg);
-  background-size: 110%;
+  width: 55%;
+  background-image: url(/imagenes/reloj.png);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  height: 300px;
-  width: 108%;
-  margin-left: -15px;
+  background-position: center;
+  padding-right: 25px;
+  padding-top: 10px;
 }
 
-#h3Presencia {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
+.col {
   text-align: center;
-  color: white;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  width: 50px;
+  line-height: 12px;
+  font-family: "gothammedium", sans-serif;
+  letter-spacing: 4px;
+  font-size: 17px;
 }
 
-#txtPresencia{
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  margin-top: -40px;
+.letrasReloj {
+  font-size: 8px;
+  font-family: "gothambook", sans-serif;
+  letter-spacing: 2px;
+}
+
+.separador {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.img {
+  margin: 5px;
+}
+
+#fecha {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 8px;
+}
+#dia {
+  font-family: "gothambook", sans-serif;
+  letter-spacing: 5px;
+}
+#diaNum {
+  font-size: 40px;
+  margin-left: 6px;
+  margin-right: 10px;
+  font-family: "gothammedium", sans-serif;
+}
+#mesHora {
+  line-height: 0px;
+}
+#mes {
+  font-family: "gothamblack", sans-serif;
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+#hora {
+  font-family: "gothambook", sans-serif;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.gotBook {
+  font-family: "gothambook", sans-serif;
+}
+
+.secciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.titulo {
+  font-family: "gothambold", sans-serif;
+  letter-spacing: 4px;
   font-size: 15px;
+}
+#direccion {
+  font-family: "gothambook", sans-serif;
+  margin-top: -13px;
+  font-size: 11pt;
+  margin-bottom: 15px;
+}
+#tipoVestimenta {
+  font-family: "gothambook", sans-serif;
+  margin: 2px;
+}
+
+#formulario {
   text-align: center;
+  font-family: "gothambook", sans-serif;
+  margin-bottom: 18px;
+}
+
+#regalo {
+  text-align: center;
+  font-family: "gothambook", sans-serif;
+  margin-bottom: 20px;
+}
+
+.gBold {
+  font-family: "gothambold", sans-serif;
+}
+
+#teEspero {
+  font-family: "rosellinda_alyamoreregular", sans-serif;
+  font-size: 60pt;
+  margin-top: 15px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #d7a844 0%,
+    #f3d490 25%,
+    #d7a844 100%
+  );
+  padding: 5px 25px;
+  text-align: center;
+  background-size: 200% auto;
   color: white;
-}
-
-#btnPresencia{
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  margin-top: -50px;
-  color: #9AA1B7;
-  padding: 8px 12px;
-  text-decoration: none;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  border-radius: 60px;
-  background: #FFFFFF;
-  font-size: 15px;
-  border-style:none;
-}
-
-#imgCactus{
-  width: 114%;
-}
-
-.botones{
-  margin-top: 5px;
-  color: #FFFFFF;
-  padding: 8px 12px;
-  text-decoration: none;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  border-radius: 60px;
-  background: #9AA1B7;
-  font-size: 15px;
-  border-style:none;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-}
-
-.icoUbicacion{
+  box-shadow: 0 0 20px #eee;
+  border-radius: 30px;
   display: block;
-  float: left;
+  border: none;
+  font-family: "gothambold", sans-serif;
+  font-size: 13px;
+}
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
-a{
-  list-style: none;
-  text-decoration: none;
+footer {
+  padding-bottom: 30%;
+}
+
+
+
+
+
+@font-face {
+  font-family: "gothamblack";
+  src: url("fuentes/gotham-black-webfont.woff2") format("woff2"),
+    url("fuentes/gotham-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gothambold";
+  src: url("fuentes/gotham-bold-webfont.woff2") format("woff2"),
+    url("fuentes/gotham-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gothambook";
+  src: url("fuentes/gotham-book-webfont.woff2") format("woff2"),
+    url("fuentes/gotham-book-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gothammedium";
+  src: url("fuentes/gotham-medium-webfont.woff2") format("woff2"),
+    url("fuentes/gotham-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "rosellinda_alyamoreregular";
+  src: url("fuentes/rosellinda_alyamore-webfont.woff2") format("woff2"),
+    url("fuentes/rosellinda_alyamore-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
